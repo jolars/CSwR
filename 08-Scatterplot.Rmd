@@ -982,7 +982,7 @@ Thresholding:
 sigmahat <- sqrt(sum(polylm$residuals^2) / polylm$df.residual)
 ggplot(mapping = aes(x = 1:16, y = abs(coef(polylm)))) + 
   ylab(expression(paste("|", hat(beta), "|"))) + 
-  xlab("") + geom_abline(intercept = 1.96 * sigmahat, slope = 0, color = "red", size = 1) +
+  xlab("") + geom_abline(intercept = 1.96 * sigmahat, slope = 0, color = "red", linewidth = 1) +
   geom_point(size = 4) + 
   annotate(
     "text", 
