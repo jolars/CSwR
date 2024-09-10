@@ -880,7 +880,7 @@ With $x_1, \ldots, x_N \in \mathbb{R}$ we define the $N \times p$ model matrix
 $\boldsymbol{\Phi}$ with entries 
 
 \[
-\Phi_{ij} = \varphi_j(x_i)
+\Phi_{ij} = \varphi_j(x_i).
 \]
 
 Letting $f_i = f(x_i) = (\boldsymbol{\Phi} \beta)_i$ we can write the squared 
