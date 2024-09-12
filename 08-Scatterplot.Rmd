@@ -1090,7 +1090,7 @@ in terms of the $\beta$-parameter is
 and with resulting smoother
 
 \[
-  \hat{\mathbf{f}} = \underbrace{\boldsymbol{\Phi} ((\boldsymbol{\Phi}^T \boldsymbol{\Phi} + \lambda \boldsymbol{\Omega})^{-1}\boldsymbol{\Phi}^T}_{\mathbf{S}_{\lambda}} \mathbf{y}.
+  \hat{\mathbf{f}} = \underbrace{\boldsymbol{\Phi} (\boldsymbol{\Phi}^T \boldsymbol{\Phi} + \lambda \boldsymbol{\Omega})^{-1}\boldsymbol{\Phi}^T}_{\mathbf{S}_{\lambda}} \mathbf{y}.
 \]
   
 This linear smoother with smoothing matrix $\mathbf{S}_{\lambda}$ based 
