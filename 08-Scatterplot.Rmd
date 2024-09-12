@@ -1045,7 +1045,7 @@ such that the $f$ that minimizes \@ref(eq:spline-criterion) is of the form
 What is remarkable about this is that the basis (and the finite dimensional
 vector space it spans) does not depend upon the $y$-values. Though the 
 optimization is over an infinite dimensional space, the penalization ensures
-that the minimizer is always in the same finite dimensional space nomatter 
+that the minimizer is always in the same finite dimensional space no matter 
 what $y_1, \ldots, y_N$ are. Moreover, since \@ref(eq:spline-criterion) is 
 a quite natural criterion to minimize to find a smooth function fitting 
 the bivariate data, splines appear as good candidates 
