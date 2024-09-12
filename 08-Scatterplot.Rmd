@@ -1052,7 +1052,7 @@ the bivariate data, splines appear as good candidates
 for producing such smooth fits. On top of that, splines have several 
 computational advantages and are widely used. 
 
-If we let $\hat{f}_i = \hat{f}(x_i)$ with $\hat{f}$ the minimizer of 
+If we let $\hat{f}_i = \hat{f}(x_i)$ with $\hat{f}$ being the minimizer of 
 \@ref(eq:spline-criterion), we have in vector notation that 
 
 \[
